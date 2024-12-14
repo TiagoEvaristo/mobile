@@ -3,12 +3,15 @@ import { colors, fontFamily } from "@/styles/theme"
 
 export const s = StyleSheet.create({
   container: {
-    gap: 24,
-    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
   },
-  title: {
-    fontSize: 16,
-    fontFamily: fontFamily.regular,
+  text: {
     color: colors.gray[500],
+    fontSize: 14,
+    fontFamily: fontFamily.regular,
+    lineHeight: 22.4,
+    flex: 1,
   },
 })
